@@ -1,3 +1,5 @@
+#!/bin/bash
+
 systemctl stop docker 
 rm -rf /var/lib/docker
 
