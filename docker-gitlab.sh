@@ -1,4 +1,4 @@
-docker run --privileged  --detach \
+docker run --privileged --detach \
     --hostname gitlab.example.com \
     --publish 443:443 --publish 80:80 --publish 2223:22 \
     --name gitlab \
