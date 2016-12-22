@@ -9,6 +9,9 @@ gpgcheck=1
 gpgkey=https://yum.dockerproject.org/gpg
 EOF
 
+yum clean all
+yum update
+
 yum install docker-engine
 
 systemctl start docker
